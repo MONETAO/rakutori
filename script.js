@@ -7,7 +7,7 @@ function convertToYen() {
     const formattedResult = new Intl.NumberFormat('ja-JP', { maximumFractionDigits: 0 }).format(result);
 
     // 計算結果を表示
-    document.getElementById('result').innerText = `${euro} ユーロは ${formattedResult} 円です。`;
+    document.getElementById('result').innerText = `${euro} ユーロ = ${formattedYen} 円`;
 }
 
 // HTMLロード時にすぐ表示するプリセット金額のリスト
